@@ -1,0 +1,6 @@
+matrix, a set of numbers arranged in rows and columns so as to form a rectangular array. The numbers are called the elements, or entries, of the matrix. Matrices have wide applications in engineering, physics, economics, and statistics as well as in various branches of mathematics
+Addition, subtraction and multiplication are the basic operations on the matrix. To add or subtract matrices, these must be of identical order and for multiplication, the number of columns in the first matrix equals the number of rows in the second matrix.
+
+Addition of Matrices
+Subtraction of Matrices
+Multiplication of Matrices
