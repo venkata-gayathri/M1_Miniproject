@@ -32,11 +32,7 @@ int main(void)
     {
         for (c = 0; c < m; c++) {
       for (d = 0; d < q; d++) {
-        for (k = 0; k < p; k++) {
-          tot = fst[c][k] + sec[k][d];
-        }
-        mul[c][d] = tot;
-        tot = 0;
+          mul[c][d] = fst[c][d] + sec[c][d];
       }
     }
  
@@ -51,11 +47,7 @@ int main(void)
     {
         for (c = 0; c < m; c++) {
       for (d = 0; d < q; d++) {
-        for (k = 0; k < p; k++) {
-          tot =  fst[c][k] - sec[k][d];
-        }
-        mul[c][d] = tot;
-        tot = 0;
+           mul[c][d] =  fst[c][d] - sec[c][d];
       }
     }
  
